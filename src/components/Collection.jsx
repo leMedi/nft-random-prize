@@ -2,7 +2,7 @@ import { Section } from "./Section";
 
 const Token = ({ name, image, isMinted }) => (
   <div
-    className="w-full md:w-1/3 xl:w-1/5 2xl:w-1/6 p-6 flex flex-col"
+    className="w-full m-auto max-w-sm sm:m-0 sm:max-w-none sm:w-1/2 md:w-1/3 xl:w-1/5 2xl:w-1/6 p-6 flex flex-col"
     style={{
       opacity: isMinted ? 0.3 : 1
     }}
