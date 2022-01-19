@@ -3,7 +3,7 @@ import { Section } from "./Section";
 
 export const FAQ = () => (
   <Section title="FAQ">
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div className="accordion accordion-flush" id="accordionFlushExample">
       <AccordionItem question="What is a NFT Prize ?">
         A nft prize is a unique piece of art designed by us and randomly generated with different attributes . From 111 attributes to 868 296 000 combinations, your nft prize will be unique in the world.
       </AccordionItem>

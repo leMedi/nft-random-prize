@@ -6,10 +6,13 @@ import { Footer } from './components/Footer';
 import { FAQ } from './components/FAQ';
 import { Collection } from './components/Collection';
 import { Hero } from './components/Hero';
+import Modal from 'react-modal';
+
+Modal.setAppElement('#modal');
 
 function App() {
   return (
-    <div class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+    <div className="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
       <HeaderNav />
       <Hero />
       <Collection />

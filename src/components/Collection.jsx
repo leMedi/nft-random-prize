@@ -1,4 +1,18 @@
 import { Section } from "./Section";
+import T1 from '../tokens/1.jpg'
+import T2 from '../tokens/2.jpg'
+import T3 from '../tokens/3.jpg'
+import T4 from '../tokens/4.jpg'
+import T5 from '../tokens/5.jpg'
+import T6 from '../tokens/6.jpg'
+import T7 from '../tokens/7.jpg'
+import T8 from '../tokens/8.jpg'
+import T9 from '../tokens/9.jpg'
+import T10 from '../tokens/10.jpg'
+import T11 from '../tokens/11.jpg'
+import T12 from '../tokens/12.jpg'
+
+// const baseURL = 'https://gateway.pinata.cloud/ipfs/QmWFoH4vweitUL8LZZvwLmZiDSFwXJb37oM3URra7RvwZ9/';
 
 const Token = ({ name, image, isMinted }) => (
   <div
@@ -19,27 +33,27 @@ const Token = ({ name, image, isMinted }) => (
 
 export const Collection = () => {
   return <Section title="Collection">
-    <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
-      <Token name="Token #001" image="https://images.unsplash.com/photo-1555982105-d25af4182e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token name="Token #002" image="https://images.unsplash.com/photo-1508423134147-addf71308178?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token isMinted name="Token #003" image="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token name="Token #004" image="https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
+    <div className="container mx-auto flex items-center flex-wrap pt-4 pb-12">
+      <Token name="Token #001" image={T1}></Token>
+      <Token name="Token #002" image={T2}></Token>
+      <Token name="Token #003" image={T3}></Token>
+      <Token name="Token #004" image={T4}></Token>
 
-      <Token name="Token #005" image="https://images.unsplash.com/photo-1467949576168-6ce8e2df4e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token isMinted name="Token #006" image="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token isMinted name="Token #007" image="https://images.unsplash.com/photo-1550837368-6594235de85c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token name="Token #008" image="https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80"></Token>
+      <Token name="Token #005" image={T5}></Token>
+      <Token name="Token #006" image={T6}></Token>
+      <Token name="Token #007" image={T7}></Token>
+      <Token name="Token #008" image={T8}></Token>
 
-      <Token name="Token #009" image="https://images.unsplash.com/photo-1555982105-d25af4182e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token isMinted name="Token #010" image="https://images.unsplash.com/photo-1508423134147-addf71308178?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token name="Token #011" image="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
-      <Token name="Token #012" image="https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80"></Token>
+      <Token name="Token #009" image={T9}></Token>
+      <Token name="Token #010" image={T10}></Token>
+      <Token name="Token #011" image={T11}></Token>
+      <Token name="Token #012" image={T12}></Token>
 
     </div>
 
-    <div class="flex space-x-2 justify-center">
+    <div className="flex space-x-2 justify-center">
       <div>
-        <button type="button" class="inline-block px-6 py-2 border-2 border-gray-800 text-gray-800 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out">View Collection on Opensea</button>
+        <button type="button" className="inline-block px-6 py-2 border-2 border-gray-800 text-gray-800 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out">View Collection on Opensea</button>
       </div>
     </div>
   </Section>;
