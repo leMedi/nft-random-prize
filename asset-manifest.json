@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nft-random-prize/static/css/main.5de4b6f6.css",
-    "main.js": "/nft-random-prize/static/js/main.cbdffb9c.js",
+    "main.js": "/nft-random-prize/static/js/main.f2769e82.js",
     "static/js/787.9750ae9a.chunk.js": "/nft-random-prize/static/js/787.9750ae9a.chunk.js",
     "static/media/crocodile.png": "/nft-random-prize/static/media/crocodile.1b7fd8cbb0a75516e215.png",
     "index.html": "/nft-random-prize/index.html",
     "main.5de4b6f6.css.map": "/nft-random-prize/static/css/main.5de4b6f6.css.map",
-    "main.cbdffb9c.js.map": "/nft-random-prize/static/js/main.cbdffb9c.js.map",
+    "main.f2769e82.js.map": "/nft-random-prize/static/js/main.f2769e82.js.map",
     "787.9750ae9a.chunk.js.map": "/nft-random-prize/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5de4b6f6.css",
-    "static/js/main.cbdffb9c.js"
+    "static/js/main.f2769e82.js"
   ]
 }
