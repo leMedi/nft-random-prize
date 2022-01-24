@@ -1,31 +1,25 @@
 import { Section } from "./Section";
-import T1 from '../tokens/1.jpg'
-import T2 from '../tokens/2.jpg'
-import T3 from '../tokens/3.jpg'
-import T4 from '../tokens/4.jpg'
-import T5 from '../tokens/5.jpg'
-import T6 from '../tokens/6.jpg'
-import T7 from '../tokens/7.jpg'
-import T8 from '../tokens/8.jpg'
-import T9 from '../tokens/9.jpg'
-import T10 from '../tokens/10.jpg'
-import T11 from '../tokens/11.jpg'
-import T12 from '../tokens/12.jpg'
+import T1 from '../tokens/1.png'
+import T2 from '../tokens/2.png'
+import T3 from '../tokens/3.png'
+import T4 from '../tokens/4.png'
+import T5 from '../tokens/5.png'
+import T6 from '../tokens/6.png'
+import T7 from '../tokens/7.png'
+import T8 from '../tokens/8.png'
+import T9 from '../tokens/9.png'
+import T10 from '../tokens/10.png'
+import T11 from '../tokens/11.png'
+import T12 from '../tokens/12.png'
 
-// const baseURL = 'https://gateway.pinata.cloud/ipfs/QmWFoH4vweitUL8LZZvwLmZiDSFwXJb37oM3URra7RvwZ9/';
-
-const Token = ({ name, image, isMinted }) => (
+const Token = ({ name, image }) => (
   <div
     className="w-full m-auto max-w-sm sm:m-0 sm:max-w-none sm:w-1/2 md:w-1/3 xl:w-1/5 2xl:w-1/6 p-6 flex flex-col"
-    style={{
-      opacity: isMinted ? 0.3 : 1
-    }}
   >
     <a href="#!">
       <img className="hover:grow hover:shadow-lg" alt={name} src={image} />
       <div className="pt-3 flex items-center justify-between">
-        <p className={`${isMinted && 'line-through'}`}>{name}</p>
-        {!isMinted ? <p className="text-sm text-gray-400">Available</p> : <p className="text-sm text-red-500">minted</p>}
+        <p>{name}</p>
       </div>
     </a>
   </div>

@@ -8,14 +8,14 @@ export const About = () => (
       NFT Prize
       created by{" "}
       <a
-        className="text-gray-800 underline hover:text-gray-900"
+        className="text-purple-600 underline hover:text-purple-700"
         href=""
       >
         @LeMedi
       </a>{" "}
       and{" "}
       <a
-        className="text-gray-800 underline hover:text-gray-900"
+        className="text-purple-600 underline hover:text-purple-700"
         href=""
         target="_blank"
       >

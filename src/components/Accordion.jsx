@@ -5,9 +5,9 @@ export const AccordionItem = ({ question, children }) => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+    <div className="border-t-0 border-l-0 border-r-0 rounded-none border border-white">
       <button
-        className="flex items-center w-full py-4 px-2 text-base text-gray-800 text-left bg-white border-0 rounded-none focus:outline-none"
+        className="flex items-center w-full py-4 px-2 text-base text-left border-0 rounded-none focus:outline-none"
         type="button"
         onClick={() => setOpen(!isOpen)}
       >

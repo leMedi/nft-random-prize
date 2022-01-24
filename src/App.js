@@ -12,7 +12,7 @@ Modal.setAppElement('#modal');
 
 function App() {
   return (
-    <div className="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+    <div className="bg-black text-white work-sans leading-normal text-base tracking-normal">
       <HeaderNav />
       <Hero />
       <Collection />
