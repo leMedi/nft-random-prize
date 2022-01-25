@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/nft-random-prize/static/css/main.5de4b6f6.css",
-    "main.js": "/nft-random-prize/static/js/main.f2769e82.js",
+    "main.css": "/nft-random-prize/static/css/main.3e680ce7.css",
+    "main.js": "/nft-random-prize/static/js/main.ab9120d7.js",
     "static/js/787.9750ae9a.chunk.js": "/nft-random-prize/static/js/787.9750ae9a.chunk.js",
-    "static/media/crocodile.png": "/nft-random-prize/static/media/crocodile.1b7fd8cbb0a75516e215.png",
+    "static/media/16.png": "/nft-random-prize/static/media/16.c5721c1f6263bb8f1cf3.png",
+    "static/media/9.png": "/nft-random-prize/static/media/9.8be0625a494f59fd7448.png",
+    "static/media/7.png": "/nft-random-prize/static/media/7.f2809b4ec8e447433e58.png",
+    "static/media/4.png": "/nft-random-prize/static/media/4.79b602e7eff8577872ea.png",
+    "static/media/3.png": "/nft-random-prize/static/media/3.46763f08d6de6570d96a.png",
+    "static/media/6.png": "/nft-random-prize/static/media/6.7c14b13311c6983277ae.png",
+    "static/media/5.png": "/nft-random-prize/static/media/5.1091696c5f823ecb5263.png",
+    "static/media/14.png": "/nft-random-prize/static/media/14.bac02af6a16c1dab6c35.png",
+    "static/media/15.png": "/nft-random-prize/static/media/15.601fa8090ed87d9ed1af.png",
+    "static/media/11.png": "/nft-random-prize/static/media/11.58f408ee3892c6aa3b04.png",
+    "static/media/1.png": "/nft-random-prize/static/media/1.221dff57a3520b4cf217.png",
+    "static/media/8.png": "/nft-random-prize/static/media/8.8565f927e45465b6500a.png",
+    "static/media/10.png": "/nft-random-prize/static/media/10.584544d01ee60254f90b.png",
+    "static/media/12.png": "/nft-random-prize/static/media/12.77917a67468dd564191b.png",
+    "static/media/2.png": "/nft-random-prize/static/media/2.0c24c497eb0002c4740e.png",
     "index.html": "/nft-random-prize/index.html",
-    "main.5de4b6f6.css.map": "/nft-random-prize/static/css/main.5de4b6f6.css.map",
-    "main.f2769e82.js.map": "/nft-random-prize/static/js/main.f2769e82.js.map",
+    "main.3e680ce7.css.map": "/nft-random-prize/static/css/main.3e680ce7.css.map",
+    "main.ab9120d7.js.map": "/nft-random-prize/static/js/main.ab9120d7.js.map",
     "787.9750ae9a.chunk.js.map": "/nft-random-prize/static/js/787.9750ae9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de4b6f6.css",
-    "static/js/main.f2769e82.js"
+    "static/css/main.3e680ce7.css",
+    "static/js/main.ab9120d7.js"
   ]
 }
