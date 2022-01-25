@@ -13,9 +13,9 @@ const NavLink = ({title, link}) => (
 );
 
 export const HeaderNav = () => (
-  <nav id="header" className="w-full z-30 top-0 py-1">
+  <nav id="header" className="w-full px-6 xl:px-0 z-30 top-0 py-1">
     <div className="max-w-6xl mx-auto flex flex-wrap items-center mt-0 py-3 text-white">
-      <div>
+      <div className="flex-1 md:flex-none">
         <a
           className="flex items-center tracking-wide no-underline hover:no-underline font-black text-3xl "
           href="/#"
@@ -39,14 +39,14 @@ export const HeaderNav = () => (
         </nav>
       </div>
 
-      <div className="flex justify-center mb-4 md:mb-0 md:order-last">
+      <div className="flex order-last">
         <a href="#!" className="mr-6">
           <FaInstagram />
         </a>
         <a href="#!" className="mr-6">
           <FaFacebookF />
         </a>
-        <a href="#!" className="mr-6">
+        <a href="#!">
           <FaTwitter />
         </a>
       </div>
